@@ -1,4 +1,5 @@
 html {
+  scroll-snap-type: block mandatory;
   scroll-behavior: smooth;
 }
 .centered {
@@ -128,6 +129,7 @@ h1 {
   }
 
   .item {
+    scroll-snap-align: center;
     background-color: #e5e5d8;
     margin: 2.3% 12%;
     padding: 3.4%;
