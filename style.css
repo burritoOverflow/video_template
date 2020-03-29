@@ -86,10 +86,16 @@ h1 {
   }
   video {
     width: 90%;
+    transition: transform 0.1s ease;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
   }
 
   video:hover {
-    box-shadow: 13px 12px 7px #aaaaaa;
+    transform: translate(25px, -50px);
+    box-shadow: 13px 12px 7px #777575;
   }
 
   .video-container {
